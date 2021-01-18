@@ -1,0 +1,33 @@
+.wrapper {
+  border: 1px solid blue;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+
+  background-color: burlywood;
+}
+
+.result {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: red;
+  padding: 10px;
+}
+
+.button {
+  font: inherit;
+  font-weight: 500;
+  padding: 2px 5px;
+  min-width: 50px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
